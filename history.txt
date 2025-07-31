@@ -1,0 +1,102 @@
+    1  serach cmatrix
+    2  search cmatrix
+    3  pkg search cmatrix
+    4  pkg upgrade
+    5  pkg search cmatrix
+    6  pkg search neofetch
+    7  pkg search git
+    8  pkg install neofetch cmatrix git
+    9  cmatrix
+   10  neofetch
+   11  git -v
+   12  pkg search gh
+   13  pkg install gh
+   14  gh auth login
+   15  git add .
+   16  git clone https://github.com/AsterDivine/246191816-AMANGYEN
+   17  clear
+   18  ls
+   19  cd 246191816-AMANGYEN
+   20  ls
+   21  touch filedemo.txt
+   22  nano filedemo.txt
+   23  cat filedemo.txt
+   24  clear
+   25  pwd
+   26  ls -la
+   27  mkdir linux_practice
+   28  cd linux_practice
+   29  touch notes.txt
+   30  ls -la
+   31  cd ..
+   32  sudo apt update
+   33  neofetch
+   34  cat system_info.txt
+   35  neofetch > system_info.txt
+   36  cat system_info.txt
+   37  cp system_info.txt ~/linux_practice/
+   38  ls
+   39  cp system_info.txt ~/linux_practice/
+   40  cp system_info.txt linux_practice/
+   41  cd linux_practice
+   42  ls
+   43  cd ..
+   44  cmatrix
+   45  touch matrix_notes.txt
+   46  nano matrix_notes.txt
+   47  cat matrix_notes.txt
+   48  du -h
+   49  top
+   50  rm system_info.txt
+   51  rm -r linux_practice
+   52  ls
+   53  clear
+   54  pkg list-installed | grep neo
+   55  mkdir testdir && cd testdir
+   56  touch file(1..5).txt
+   57  touch file1.txt
+   58  touch file2.txt
+   59  touch file3.txt
+   60  touch file4.txt
+   61  touch file5.txt
+   62  dd if=dev/zero of=bigfile.log bs=1M count=5
+   63  find . -name "*.txt"
+   64  find 
+   65  find . -size +1M | xargs rm -v
+   66  to7ch secret.txt
+   67  touch secret.txt
+   68  chmod 600 secret.txt
+   69  stat secret.txt
+   70  top
+   71  yes > /dev/null &
+   72  renice +10 -p 7583
+   73  kill 7583
+   74  mkdir tarb && cd tarb
+   75  touch file6.txt
+   76  touch file7.txt
+   77  touch file8.txt
+   78  touch file9.txt
+   79  tar -czvf backup.tar.gz ./
+   80  mkdir extract && tar -xzvf backup.tar.gz -C extract/
+   81  ss -tuln
+   82  nmap 127.0.0.1
+   83  pkg install nmap
+   84  nmap 127.0.0.1
+   85  python3 -m http.server 8080 &
+   86  pkg install python
+   87  no storage for 600 MB python 
+   88  pkg install crontab
+   89  pkg install cronie -y
+   90  cron
+   91  cron start
+   92  sudo service cron start
+   93  crontab -e
+   94  echo 'date >> ~/time.log' > ~/logtime.sh
+   95  chmod +x ~/logtime.sh
+   96  crontab -e
+   97  cat ~/time.log
+   98  history > history.txt
+   99  ls
+  100  cd ..
+  101  cat histort.txt
+  102  history > history.txt
